@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "dbb9af0d0ab426c17af7"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "5f8920c3f0ca9b3f078a"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -21276,13 +21276,7 @@ var App = function (_Component) {
         _react2.default.createElement(
           'p',
           { className: 'App-intro' },
-          'To get started, edit ',
-          _react2.default.createElement(
-            'code',
-            null,
-            'src/App.js'
-          ),
-          ' and save to reload.'
+          'Wow hot loading is amazing!'
         )
       );
     }
